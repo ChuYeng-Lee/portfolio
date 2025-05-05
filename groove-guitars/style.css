@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&family=Poppins&display=swap');
+
+/* CSS for body*/
+body{
+	font-family: "Poppins", serif;
+	margin: 0;
+}
+
+/* This is the Css for the logo */
+.logo{
+	max-width: 275px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+/* Website Links except the nav */
+a:link{
+	color: #004d38;
+}
+a:visited{
+	color: #004d38;
+}
+a:hover{
+	color: #0000b3;
+}
+a:active{
+	color: yellow;
+}
+
+header{
+	text-align: center;
+}
+
+/* Navigation*/
+nav{
+	background-color: #00b38f;
+	border: 3px solid #005ce6;
+	padding: 5px;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 8px 0;
+	padding: 0;
+}
+nav li{
+	display: inline;
+	padding: 5px;
+}
+nav a{
+	text-decoration: none;
+}
+nav a:link{
+	color: white;
+}
+nav a:visited{
+	color: white;
+}
+nav a:hover{
+	color: #0000b3;
+}
+nav a:active{
+	color: yellow;
+}
+
+/* This is the CSS for the hero image */
+#home-hero{
+	background-image: url(images/guitars.jpg);
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#home-hero h1{
+	text-align: center;
+	color: #FF00FE;
+	text-shadow: 2px 2px 2px black;
+	margin: 0;
+	padding: 10px;
+	background-color: rgba(0,0,0,.5);
+}
+
+/* Main Section */
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+	padding: 10px;
+}
+h1{
+	text-align: center;
+	margin: 0 auto;
+}
+h2{
+	text-align: center;
+	border: 3px solid black;
+	background-color: #00b38f;
+	border-radius: 5px;
+	padding: 7px;
+}
+
+/* This is the CSS for the table*/
+table{
+	border-collapse: collapse;
+	margin: 0 auto;
+	border: 5px solid black;
+}
+
+tr:nth-child(even) {
+	background-color: #b3b3cc;
+}
+tr:nth-child(odd) {
+	background-color: #f0f0f5;
+}
+
+th{
+	background-color: #00997a;
+	color: white;
+	padding: 10px;
+	border-bottom: 4px solid black;
+}
+
+td{
+	border: 2px solid #009975;
+	padding: 10px;
+}
+
+/* This is the CSS for the form*/
+form{
+	max-width: 320px;
+	border: 4px solid black;
+	padding: 30px;
+	background-color: #00997a;
+}
+label{
+	float:left;
+	width: 8em;
+	padding-right: 1em;
+	color: white;
+}
+input, textarea{
+	margin-bottom: 1em;
+	display: block;
+	border: 1px solid black;
+	background-color: rgba(153, 206, 255,0.65);
+}
+input{
+	display: block;
+	border-radius: 5px;
+}
+input[type=submit]{
+	display: block;
+	margin: 0 auto;
+	background-color: #ff66ff;
+	border: 2px solid #0000e6;
+	width: 200px;
+	border-radius: 5px;
+	opacity: 1;
+	font-size: 1.3em;
+	padding: 5px;
+	border-radius: 15px;
+}
+textarea{
+	height: 100px;
+	width: 300px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+/* CSS for floated image */
+.float-right{
+	float: right;
+	max-width: 40%;
+	height: auto;
+	border: 4px solid black;
+	border-radius: 3px;
+	box-shadow: 5px 5px 5px black;
+	margin: 0 auto;
+}
+
+/* CSS for imbedded videos */
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+	box-shadow: 5px 5px 5px black;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Footer */
+footer{
+	border-top: #007099 3px solid;
+	text-align: center;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+	font-family: "My Soul", cursive;
+	color: #004f99;
+	font-size: 4em;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}

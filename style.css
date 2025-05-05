@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=My+Soul&family=Poppins&family=Spectral&display=swap');
+
+html, body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Spectral", serif;
+	background-color: white;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	border-top: 5px solid #009999;
+}
+header{
+	padding-top: 2px;
+	padding-bottom: 3px;
+}
+.logo{
+	max-width: 180px;
+	margin: 0 auto;
+	display: block;
+}
+h2{
+	font-family: "Emilys Candy", cursive;
+	color: #0069cc;
+}
+h3{
+	font-family: "Emilys Candy", cursive;
+	color: #009999;
+}
+
+/* Website Links except the nav */
+a:link{
+	color: black;
+}
+a:visited{
+	color: black;
+}
+a:hover{
+	color: #0000b3;
+}
+a:active{
+	color: orange;
+}
+.resume-link:hover{
+	text-decoration: none;
+}
+
+header{
+	text-align: center;
+}
+
+/* Navigation*/
+nav{
+	background-color: #00cca3;
+	border: 4px solid #009999;
+	padding: 0px;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 8px 0;
+	padding: 0;
+}
+nav li{
+	display: inline;
+	padding: 5px;
+}
+nav a{
+	text-decoration: none;
+}
+nav a:link{
+	color: #1a53ff;
+}
+nav a:visited{
+	color: #1a53ff;
+}
+nav a:hover{
+	color: orange;
+}
+nav a:active{
+	color: white;
+}
+
+/* CSS for hero image */
+.home-hero{
+	background-image: url(images/hero-image.jpg);
+	height: 250px;
+	background-size: cover;
+	background-position: top center;
+	border-bottom: #009999 3px solid;
+}
+
+.home-hero h1{
+	color: #004f99;
+	text-shadow: 2px 2px 2px darkblue;
+	text-align: center;
+	padding-bottom: 10px;
+	font-size: 4em;
+	font-weight: normal;
+	margin: 0 auto;
+}
+
+/* CSS for selfie photo */
+.selfie-photo{
+	margin: 0 auto;
+	display: block;
+	margin-top: 20px;
+	max-width: 10%;
+	height: auto;
+	border-radius: 65px;
+}
+
+/* Main */
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+	padding: 10px;
+	flex: 1;
+}
+main p{
+	font-size: 1.1em;
+}
+.capitol-photo{
+	margin-top: 85px;
+	margin-bottom: 8px;
+	border: 5px solid white;
+	box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.75);
+}
+.img-fluid{
+	border-radius: 15px;
+}
+.row2{
+	margin-top: 20px;
+	text-align: center;
+	padding: 10px;
+}
+.row2 .fa{
+	font-size: 4em;
+	color: #00cca3;
+}
+.learn-more:link{
+	background-color: #00cca3;
+	border: 4px solid #009999;
+	padding: 3px;
+	border-radius: 5px;
+}
+.learn-more:hover{
+	background-color: #009999;
+	text-decoration: none;
+}
+.row3{
+	margin-top: 30px;
+	padding: 10px;
+}
+.gallery img{
+	border-radius: 15px;
+	box-shadow: 7px 7px 15px 8px rgba(0,0,0,0.75);
+	border: 8px solid white;
+	margin-bottom: 35px;
+}
+.preview{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.gallery-thumbnails img{
+	border-radius: 10px;
+	box-shadow: 4px 4px 15px 4px rgba(0,0,0,0.75);
+	border: 5px solid white;
+}
+
+/* CSS for Resume */
+.resume-page{
+	border: 1px solid black;
+	box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.75);
+	width: 800px;
+	padding-top: 20px;
+	padding-bottom: 45px;
+	margin: 25px auto;
+}
+.resume-header{
+	max-width: 500px;
+	margin: 0 auto;
+}
+.resume-header h1{
+	font-size: 3.2em;
+}
+.resume-content{
+	max-width: 500px;
+	margin: 0 auto;
+	border-left: solid 6px #eeeeee;
+}
+
+/* CSS for Portfolio*/
+.portfolio-h1{
+	text-align: center;
+}
+.portfolio-pic{
+	border: 2px solid black;
+	box-shadow: 5px 4px 5px 1px rgba(0,0,0,0.75);
+}
+.port-row{
+	margin: 25px auto;
+}
+.port-text{
+	margin-top: 15px;
+}
+
+/* CSS for Game */
+.game-controls{
+	text-align: center;
+	margin-top: 10px;
+}
+.myButton{
+	font-family: "Spectral", serif;
+	font-size: 1.1em;
+	color: white;
+	padding: 8px;
+	background-color: #005e80;
+	border-radius: 8px;
+}
+.w3-link{
+	text-decoration: underline;
+}
+#galaxy-title{
+	font-size: 3em;
+	text-align: center;
+}
+.game-instruction{
+	font-family: "Spectral", serif;
+	text-align: center;
+	color: black;
+	font-size: 1.4em;
+}
+.text-design{
+	max-width: 500px;
+	margin: 12px auto;
+}
+/* JavaScript Game changes for mobile */
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px){
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+}
+
+/* Footer */
+footer{
+	color: #1a1a1a;
+	border-top: #009999 4px solid;
+	text-align: center;
+	background-color: #00cca3;
+}
+.footer-style{
+	max-width: 1000px;
+	display: block;
+	margin: 0 auto;
+	padding: 5px;
+}
+.footer-top{
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+.footer-bottom{
+	color: black;
+	padding: 8px;
+	background-color: #009999;
+}
+.footer-content{
+	text-align: left;
+	max-width: 600px;
+}
+footer i.fa{
+	color: #1a53ff;
+	font-size: 1.2em;
+	margin-right: 6px;
+	margin-left: 10px;
+}
+.footer-links{
+	font-size: 1.3em;
+}
+
+/* CSS for photo gallery */
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+	font-family: "My Soul", cursive;
+	color: #00cca3;
+	text-shadow: 2px 2px 2px black;
+	font-size: 4em;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+	.resume-page{
+		max-width: 500px;
+	}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+	.fa-tasks{
+	margin-top: 15px;
+	}
+	.resume-page{
+		max-width: 360px;
+	}
+}

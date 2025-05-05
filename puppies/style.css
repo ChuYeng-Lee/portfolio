@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=DynaPuff:wght@500&family=Poppins&family=Titan+One&display=swap');
+
+body{
+	font-family: "dynapuff", sans-serif;
+	margin: 0;
+	background-color: #ffaf1a;
+	border-top: 10px solid #3ca1c3;
+}
+
+/* Website Links except the nav */
+a:link{
+	color: #004d38;
+}
+a:visited{
+	color: #004d38;
+}
+a:hover{
+	color: #0000b3;
+}
+a:active{
+	color: yellow;
+}
+
+header{
+	text-align: center;
+}
+
+/* Navigation*/
+nav{
+	background-color: lightblue;
+	border: 3px solid #007099;
+	padding: 5px;
+	font-size: 1.2em;
+	display: block;
+	margin: 0 auto;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 8px 0;
+	padding: 0;
+}
+nav li{
+	display: inline;
+	padding: 5px;
+}
+nav a{
+	text-decoration: none;
+}
+nav a:link{
+	color: #996300;
+}
+nav a:visited{
+	color: #996300;
+}
+nav a:hover{
+	color: #0000b3;
+}
+nav a:active{
+	color: yellow;
+}
+nav i.fa{
+	font-size: 1.2em;
+	margin-right: 6px;
+	margin-left: 10px;
+}
+
+/* Main */
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 10px;
+	border: 15px solid #1a1a1a;
+	border-radius: 10px;
+}
+h2, h3{
+	font-family: "chewy", cursive;
+}
+h2{
+	font-size: 2.3em;
+}
+h3{
+	font-size: 2em;
+}
+.fa{
+	color: green;
+	font-size: 4em;
+}
+
+.img-fluid{
+	border-radius: 15px;
+}
+
+/* CSS for hero image */
+.home-hero{
+	background-image:url(images/header.jpg);
+	height: 475px;
+	background-size: cover;
+	background-position: center;
+	color: #042837;
+	padding: 10px 10px 10px 30px;
+	border-radius: 15px 15px 0 0;
+}
+
+blockquote{
+	background-color: #d9d9d9;
+	border-left: 10px solid gray;
+	padding: 30px;
+	border-radius: 0 0 15px 15px;
+	text-align: center;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+}
+
+/* Footer */
+footer{
+	border-top: #007099 3px solid;
+	text-align: center;
+	background-color: lightblue;
+	border-bottom: 10px solid #3ca1c3;
+}
+.footer-style{
+	max-width: 1200px;
+	display: block;
+	margin: 0 auto;
+	padding: 5px;
+}
+footer i.fa{
+	color: #ff6666;
+	margin-top: 5px;
+}
+footer small{
+	font-family: "poppins", serif;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+	font-family: "Titan One", cursive;
+	color:#004f99;
+	font-size: 4em;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}

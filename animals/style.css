@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+	font-family: "Roboto Condensed", sans-serif;
+	margin: 0;
+	border-top: 8px solid lightblue;
+}
+h4{
+	color: #004f99;
+	font-family: "Rammetto One", cursive;
+}
+
+/* Website Links except the nav */
+a:link{
+	color: black;
+}
+a:visited{
+	color: black;
+}
+a:hover{
+	color: #0000b3;
+}
+a:active{
+	color: yellow;
+}
+
+header{
+	text-align: center;
+}
+
+/* Navigation*/
+nav{
+	background-color: #00b38f;
+	border: 3px solid #007099;
+	padding: 3px;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 8px 0;
+	padding: 0;
+}
+nav li{
+	display: inline;
+	padding: 5px;
+}
+nav a{
+	text-decoration: none;
+}
+nav a:link{
+	color: #cc0000;
+}
+nav a:visited{
+	color: #cc0000;
+}
+nav a:hover{
+	color: #0000b3;
+}
+nav a:active{
+	color: yellow;
+}
+
+/* Main */
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 10px;
+}
+.hero-image, .gallery img{
+	border-radius: 15px;
+	box-shadow: 7px 7px 15px 8px rgba(0,0,0,0.75);
+	border: 8px solid white;
+	margin-bottom: 35px;
+}
+.main-text{
+	display: block;
+	margin: 0 auto;
+	text-align: left;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	border: 2px solid black;
+	border-radius: 5px;
+	max-width: 600px;
+}
+.preview{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.gallery-thumbnails img{
+	border-radius: 10px;
+	box-shadow: 4px 4px 15px 4px rgba(0,0,0,0.75);
+	border: 5px solid white;
+}
+.fa{
+	color: #004f99;
+	font-size: 4em;
+}
+.fa-camera{
+	margin-left: 50px;
+	margin-top: 25px;
+}
+
+/* Footer */
+footer{
+	color: #1a1a1a;
+	border-top: #007099 3px solid;
+	text-align: center;
+	background-color: #00b38f;
+}
+.footer-style{
+	max-width: 1200px;
+	display: block;
+	margin: 0 auto;
+	padding: 5px;
+}
+.footer-top{
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+.footer-bottom{
+	padding: 10px;
+	background-color: lightblue;
+}
+.footer-content{
+	text-align: left;
+	max-width: 600px;
+}
+footer i.fa{
+	font-size: 1.2em;
+	margin-right: 6px;
+	margin-left: 10px;
+}
+
+/* CSS for photo gallery */
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+	font-family: "Rammetto One", cursive;
+	color:#004f99;
+	font-size: 4em;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
